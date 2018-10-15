@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
-  <title>Friends</title>
+  <title>Chats</title>
 </head>
 
 <body>
   <header>
     <div class="header__top">
       <div class="header__column">
-        <i class="fas fa-plane"></i>
+        <i class="fas fa-fighter-jet"></i>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="header__column">
@@ -30,19 +30,18 @@
     </div>
     <div class="header__bottom">
       <div class="header__column">
-        <span class="header__text">Manage</span>
+        <span class="header__text">Edit</span>
       </div>
       <div class="header__column">
-        <span class="header__text">Frinds</span> <span class="header__number"> </span>
+        <span class="header__text">Chats <i class="fa fa-caret-down"></i> </span>
       </div>
       <div class="header__column">
-        <i class="fas fa-cog fa-lg"> </i>
       </div>
   </header>
-  <main class="firends">
+  <main class="chats">
     <div class="searh-bar">
       <i class="fas fa-search"></i>
-      <input type="text" placeholder="Find frineds, chats, Plu...">
+      <input type="text" placeholder="Find frineds, chats, Plus Friends">
     </div>
     <ul class="chats__list" >
       <li class="chats__chat">
@@ -50,14 +49,26 @@
           <img scr="images/avatar.jpg">
           <div class="chat__preview">
             <h3 class="chat__user">Lynn</h3>
-            <span class="cat__last-message">Hello, This is a test message.</span>
+            <span class="chat__last-message">Hello, This is a test message.</span>
           </div>
         </div>
         <div class="caht__data-time"> 15 : 55 </div>
       </li>
     </ul>
+    <ul class="chats__list" >
+        <li class="chats__chat">
+          <div class="caht__contents">
+            <img scr="images/avatar.jpg">
+            <div class="chat__preview">
+              <h3 class="chat__user">KakaoTalk</h3>
+              <span class="chat__last-message">You logged into Kakao Talk PC</span>
+            </div>
+          </div>
+          <div class="caht__data-time"> Jule 29 </div>
+        </li>
+      </ul>
     <div class="chat-btn"> 
-
+      <i class="fa fa-comment"></i>
     </div>
     <section class="frineds__section">
       <header class="friends__section-title">
@@ -90,20 +101,23 @@
     </section>
   </main>
 </body>
-<nav class="tab-bat">
-  <a href="index.html" class="tab-bar__tab">
-    <span class="tab-bar__text">Firend</span>
+<nav class="tab-bar">
+  <a href="index.html" class="tab-bar__tab ">
+      <i class="fa fa-user"></i>
+    <span class="tab-bar__title">Firends</span>
   </a>
-  <a href="chats.html" class="tab-bar__tab">
-    <span class="tab-bar__text">Chat</span>
+  <a href="chats.html" class="tab-bar__tab tab-bar__tab-selected">
+      <i class="fa fa-comment"></i>
+    <span class="tab-bar__title">Chats</span>
   </a>
   <a href="find.html" class="tab-bar__tab">
-    <span class="tab-bar__text">Find</span>
+      <i class="fa fa-search"></i>
+    <span class="tab-bar__title">Find</span>
   </a>
   <a href="more.html" class="tab-bar__tab">
-    <span class="tab-bar__text">More</span>
+      <i class="fa fa-ellipsis-h"></i>
+    <span class="tab-bar__title">More</span>
   </a>
-
 </nav>
 
 </html>
