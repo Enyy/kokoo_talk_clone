@@ -1,26 +1,27 @@
 .friends__section .friends__section-header {
   border-top: 1px solid #888888;
   border-bottom: 1px solid #888888;
-  padding: 8px 15px;
+  padding: 10px 15px;
+  font: size 12px;
   color :teal;
 } 
 
 
-.friends__section-profile .frineds__section-profiles {
+.friends__section-profiles .friends__section-profile {
   padding: 10px 15px;
+  display:flex;
   align-items: center;
   font-size : 12pt;
 }
 
-.frineds__section-profiles img {
+.friends__section-profile.tagline{
+  justify-content: space-between;
+}
+
+.friends__section-profile img {
   width: 40px;
   border-radius: 50%;
   margin-right: 15px; 
-}
-
-.friends__section-profiles i {
-  color: darkgreen;
-  align-items: center;
 }
 
 .friends__section-profile a {
@@ -28,41 +29,44 @@
   color: inherit;
 }
 
-.search-bar {
-  padding: 10px 15px;
-  height: 25px;
+
+.friends__section-column {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
-.search-bar input[type="text"]{
+.friends__section-message {
+  font-size: 10px;
+  background-color: rgb(165, 206, 243); 
+  text-align: end;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+
+.search-bar {
+  position: relative;
+  padding: 10px 25px;
+}
+
+.search-bar input {
   margin-left: 10px;
   width: 100%;
+  padding: 5px 7px;
   box-sizing: border-box;
-  border: 0;
+  border: 0; 
+  border: 1px solid transparent;
+  border-radius: 5px;
   background-color: #f1f2f3;
   font-size: 12pt;
   text-align: center;
 }
 
-.friends__info {
-  display: flex;
-  justify-content: center;
-  color : white;
-  background-color:#9e9e9e;
-  height: 28px;
-}
-
-.friends__info-title{
-  padding-top: 5px;
-}
-
-.friends__section-message.with-tagline{
-  justify-content: space-between;
-}
-.friends__section-message {
-  float: right;
-  background-color: rgb(165, 206, 243); 
-  text-align: end;
-  border-radius: 20px;
+.search-bar i {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  color: #bbbbbb;
+  margin-left: 115px;
 }

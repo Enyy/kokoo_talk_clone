@@ -5,7 +5,6 @@
   width: 100%;
   position: fixed;
   top:0;
-  z-index: 2;
 }
 
 .top-header .header__top,
@@ -24,7 +23,7 @@
 }
 
 .top-header .header__bottom{
-  margin: 0 10px;
+  margin: 0px 10px;
 }
 
 .header__top .header__column{
