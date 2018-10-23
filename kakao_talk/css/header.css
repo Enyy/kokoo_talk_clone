@@ -3,6 +3,7 @@
   color: white;
   padding : 5px 10px 15px 10px;
   width: 100%;
+  position: fixed;
   top:0;
   z-index: 2;
 }
@@ -27,17 +28,7 @@
 }
 
 .header__top .header__column{
-  float: left;
-}
-
-
-.header__top .header_time {
-  display: flex;
-  align-items: center;
-}
-
-.header__text {
-  padding-bottom: 20px;
+  width: 33%;
 }
 
 .top-header .header__column:last-child{

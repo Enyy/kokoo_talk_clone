@@ -39,42 +39,56 @@
           </div>
         </div> 
       </header>
-  <main class="friend">
-    <div class="friend__search">
-        <i class="fas fa-search"></i><input type="text" placeholder="Find Friend, chats, Plus Friend">
+  <main class="friends">
+    <div class="search-bar">
+        <input type="text" placeholder="Find Friend, chats, Plus Friend">
+        <i class="fas fa-search"></i>
     </div>
     <div class="friend__info">
-      <span class="freind__info__title">  <i class="fas fa-info-circle"></i> Freind's Names Dispalys >
-      </span>
+        <span class="freind__info-title"><i class="fas fa-info-circle"></i> Freind's Names Dispalys ></span>
     </div>
-    <div class="friend__profile"> 
-      <div  class="friend__profile__title">
-        <span> my profile</span>
+    <div class="friends__section"> 
+      <header class="friends__section-header">
+        <h6 class="friend__section-title" > 내 프로필</h6>
+      </header>
+      <div class="friends__section-profile">
+        <div class="frineds__section-profiles">
+          <img src="images/profile1.jpg" alt="">
+          <a class="friends__section-name" href="#"> Nicaloas </a>
+        </div>
       </div>
-    </div>
-    <div class="freind__profile">
-      <img src="images/profile1.jpg" alt="">
-      <a class="friend__profile__text" href="#"> Nicaloas </a>
-    </div>
-    <div class="friend__profile__list">
-      <img src="" alt="">
-      <span class="friend__profile__text"> LYnn </span>
-      <span class="friend__profile__message"> Life is short . so Live you life</span>
-    </div>
-    <div class="friend__profile__list">
-      <img src="" alt="">
-      <span class="friend__profile__text"> yeodal </span>
+      <div class="friends__section"> 
+          <header class="friends__section-header">
+            <h6 class="friend__section-title" > 내 친구 </h6>
+          </header>
+          <div class="friends__section-profile">
+            <div class="frineds__section-profiles">
+              <img src="images/profile1.jpg" alt="">
+              <a class="friends__section-name" href="#"> Nynn </a>
+              <span class="friends__section-message"> HAHA </span>
+            </div>
+            <div class="frineds__section-profiles">
+                <img src="images/profile1.jpg" alt="">
+                <a class="friends__section-name" href="#"> Nynn </a>
+              </div>
+          </div>
+        </div>
     </div>
   </main>
-  <div class="header__bottom">
-    <i class="fas fa-user-alt"></i>
-      <a class="header__bottom__title"> Freind</a>
-    <i class="fas fa-comment"></i>
-      <a class="header__bottom__title"> Chat</a>
-    <i class="fas fa-search"></i>
-      <a class="header__bottom__title"> Find</a>
-    <i class="fas fa-ellipsis-h"></i>
-      <a class="header__bottom__title"> More</a>
+  <nav class="tab-bar">
+      <a href="" class="tab-bar__tab tab-bar__tab--selected">
+          <i class="fas fa-user-alt"></i><span class="tab-bar__title">Friend</span>
+      </a>
+      <a href="" class="tab-bar__tab">
+          <i class="fas fa-comment"></i><span class="tab-bar__title">Chat</span>
+      </a> 
+      <a href="" class="tab-bar__tab">
+          <i class="fas fa-search"></i><span class="tab-bar__title">Find</span>
+      </a> 
+      <a href="" class="tab-bar__tab">
+          <i class="fas fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
+      </a>
+    </nav>
   </div>
 </body>
 
