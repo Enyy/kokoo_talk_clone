@@ -2,12 +2,12 @@
   border-top: 1px solid #888888;
   border-bottom: 1px solid #888888;
   padding: 8px 15px;
-
+  color :teal;
 } 
+
 
 .friends__section-profile .frineds__section-profiles {
   padding: 10px 15px;
-  display: flex;
   align-items: center;
   font-size : 12pt;
 }
@@ -18,12 +18,24 @@
   margin-right: 15px; 
 }
 
-.serach-bar {
-  padding: 10px 25px;
-  width: 100%;
+.friends__section-profiles i {
+  color: darkgreen;
+  align-items: center;
 }
 
-.serach-bar input {
+.friends__section-profile a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search-bar {
+  padding: 10px 15px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input[type="text"]{
   margin-left: 10px;
   width: 100%;
   box-sizing: border-box;
@@ -33,20 +45,24 @@
   text-align: center;
 }
 
-.friend__info {
-  margin: 12px;
+.friends__info {
   display: flex;
   justify-content: center;
   color : white;
   background-color:#9e9e9e;
+  height: 28px;
 }
 
-.freind__info-title {
-  margin-top: 5px;
+.friends__info-title{
+  padding-top: 5px;
 }
 
+.friends__section-message.with-tagline{
+  justify-content: space-between;
+}
 .friends__section-message {
   float: right;
-  background-color: rgb(165, 206, 243);
-
+  background-color: rgb(165, 206, 243); 
+  text-align: end;
+  border-radius: 20px;
 }
