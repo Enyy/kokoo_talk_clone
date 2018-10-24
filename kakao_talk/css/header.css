@@ -10,7 +10,6 @@
 .top-header .header__top,
 .top-header .header__bottom {
   display: flex;
-  justify-content: space-between;
 }
 
 .header__bottom a{
@@ -24,6 +23,7 @@
 
 .top-header .header__bottom{
   margin: 0px 10px;
+  justify-content: space-between;
 }
 
 .header__top .header__column{

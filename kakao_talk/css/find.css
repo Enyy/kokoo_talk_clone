@@ -1,0 +1,27 @@
+.find .find__section-icon {
+  display: flex;
+  padding : 15px;
+}
+.find__section-icon{
+  background-color:rgb(180, 194, 207)
+}
+
+.find__section-icon .find__section-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:100%;
+  text-align: center;
+  margin-top:10px;
+}
+
+.find__section-icon .find__section-item-title {
+  margin-top: 20px;
+
+}
+
+.find__section-header {
+  color: #3e3e3e3e;
+  margin-top: 5px;
+  padding-left: 10px;
+}
