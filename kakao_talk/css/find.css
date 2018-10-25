@@ -13,6 +13,7 @@
   width:100%;
   text-align: center;
   margin-top:10px;
+  border-right: 1px solid gray;
 }
 
 .find__section-icon .find__section-item-title {
@@ -20,8 +21,23 @@
 
 }
 
-.find__section-header {
-  color: #3e3e3e3e;
+
+
+.find__section-recommed  {
+  color: black;
   margin-top: 5px;
   padding-left: 10px;
+  border:1px thin peru;
+}
+
+.find__section-recommed .find__section-header {
+  border-bottom : 1px solid gray; 
+  padding-top: 5px;
+  padding-bottom : 20px;
+}
+.find__section-recommed .find__section-title {
+  text-align: center;
+  border-bottom : 1px solid gray; 
+  padding-top:20px;
+  padding-bottom : 20px;
 }
